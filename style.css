@@ -1,0 +1,84 @@
+/* ---------------------------------------- Universal ---------------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ---------------------------------------- Container & Heading ---------------------------------------- */
+.container {
+    max-width: 50rem;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    border: 2px solid;
+}
+
+.main-heading {
+    font-size: 4rem;
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+/* ---------------------------------------- Form Control ---------------------------------------- */
+.form-class {
+    margin: 2rem 0px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    gap: 2rem; */
+}
+
+.heading-field {
+    margin-top: 2rem;
+}
+.field-name {
+    font-size: 2rem;
+}
+
+.input-field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.input-div {
+    margin-bottom: 1rem;
+}
+
+.form-control-input {
+    border: 0;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    outline: 2px solid #999;
+    text-indent: 0.5rem;
+}
+
+.hint-text {
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+    /* font-size: 0.7rem; */
+}
+
+.submit {
+    font-size: 2rem;
+    margin: 0px auto;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid white;
+    background-color: #023de3;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px #0000;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+
+}
